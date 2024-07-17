@@ -1,0 +1,414 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.whatsupp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.nav {
+    position: sticky;
+    top: 0px;
+
+
+}
+
+.container {
+    background-color: rgb(80, 32, 117);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.menu>ul {
+    color: white;
+
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+    font-size: 20px;
+    list-style: none;
+}
+.menu:hover{
+    color: rgb(240, 170, 20);
+    transition: all 0.4s ease 0s;
+}
+
+.menu button {
+    border-radius: 40px;
+    background-color: rgb(251, 163, 0);
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+}
+
+/* section-1 */
+.first-section {
+    background-color: rgb(80, 32, 117);
+}
+
+/* .section-1,
+.section-2,
+.section-21,
+.section-22 {
+    /* border: 1px solid; */
+
+
+.section-1 {
+    display: flex;
+    justify-content: end;
+}
+
+.section-2 {
+    display: flex;
+
+}
+
+.section-21 {
+    flex: 1;
+
+}
+
+
+.section-22>img {
+    width: 800px;
+    height: 500px;
+}
+
+.enable>h1 {
+    font-size: 70px;
+    margin-left: 30px;
+    font-weight: 100px;
+    color: orange;
+    font-family: Verdana;
+}
+
+.word {
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.butt .a {
+    height: 45px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(80, 32, 117);
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+.butt .b {
+    height: 45px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(80, 32, 117);
+    border-radius: 30px;
+    margin-left: 301px;
+    margin-top: -44px;
+
+}
+
+.placed {
+    margin-top: -40px;
+    margin-left: 600px;
+}
+
+.course p {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.training {
+    font-size: 25px;
+    color: rgb(80, 32, 117);
+    margin-left: 600px;
+}
+
+.paragrah {
+    font-size: 20px;
+    color: rgb(82, 79, 79);
+    padding: 50px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-22 {
+    /* height: 100vh;
+    width: 100vw; */
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.course1 {
+    border: 1PX solid;
+    border-radius: 25px;
+    text-align: center;
+    height: 150px;
+    width: 300px;
+    padding: 20px;
+    font-size: 14px;
+    color: rgb(80, 32, 117);
+}
+
+.course1>img {
+    height: 50px;
+    width: 300px;
+    object-fit: contain;
+
+}
+
+.coursea {
+    height: 55px;
+    width: 170px;
+    margin-top: 60px;
+    margin-left: 50px;
+
+}
+
+.view {
+    height: 40px;
+    width: 203px;
+    margin-left: 700px;
+    margin-top: 60px;
+    background-color: white;
+    color: rgb(80, 32, 117);
+    border: 1px rgb(80, 32, 117) solid;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+}
+
+
+
+.third-section {
+    background-color: rgb(244, 239, 352);
+    display: flex;
+}
+
+.section-31 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    flex: 1;
+}
+
+.section-32 {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+}
+
+.section-33 {
+    flex: 1;
+    display: flex;
+    gap: 30px;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+}
+.places{
+    color: rgb(80, 32, 117);
+}
+
+.career {
+    font-size: 40px;
+    color: rgb(80, 32, 117);
+    font-weight: 1000px;
+}
+
+.paragrah2 {
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+    margin-top: 20px;
+    margin-top: 30px;
+
+}
+
+.know {
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+
+    background-color: white;
+    color: rgb(80, 32, 117);
+    border: 1px rgb(80, 32, 117) solid;
+    border-radius: 10px;
+
+}
+
+
+.section-32>img {
+    width: 400px;
+}
+
+
+
+.section-331 {
+    width: 200px;
+    height: fit-content;
+
+    border: 1px rgb(215, 214, 214)solid;
+    border-radius: 24px;
+
+
+    padding: 20px;
+    background-color: white;
+}
+
+
+
+.choose {
+    font-size: 15px;
+    top: 30px;
+    text-align: center;
+    color: rgb(82, 79, 79);
+}
+
+.special {
+    font-size: 20px;
+    color: rgb(80, 32, 117);
+    margin-left: 600px;
+    margin-top: 20px;
+
+}
+
+.paragrah3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: rgb(82, 79, 79);
+    padding: 50px;
+}
+
+.section-4 {
+    padding: 30px;
+
+}
+
+.experience {
+    display: flex;
+    gap: 30px;
+
+    padding-left: 50px;
+
+    justify-content: center;
+
+
+}
+
+.subexperience {
+    border: 1px solid;
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+
+    width: 360px;
+    height: 300px;
+}
+
+.subexperience img {
+    width: 270px;
+}
+.well{
+    color: rgb(80, 32, 117);
+    margin-top: 20px;
+}
+.mor{
+    color: rgb(80, 32, 117);
+    margin-top: 20px;
+}
+.accredited{
+    color: rgb(80, 32, 117);
+    margin-top: 20px;
+}
+.dedicated{
+    color: rgb(149, 137, 137);
+    font-size: 20px;
+    top: 20px;
+}
+
+.more {
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.more>button {
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+
+    background-color: white;
+    color: rgb(80, 32, 117);
+    border: 1px rgb(80, 32, 117) solid;
+    border-radius: 10px;
+
+
+}
+
+.fifth-section {
+    background-color: rgb(80, 32, 117);
+}
+
+.proces {
+    font-size: 13px;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: white;
+
+}
+
+.journey {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: white;
+}
