@@ -18,6 +18,8 @@ body {
     position: sticky;
     top: 0px;
 
+    z-index: 5;
+
 
 }
 
@@ -30,6 +32,9 @@ body {
 
     padding: 20px;
 }
+.pic>img:hover{
+    scale: 1.05;
+}
 
 .menu>ul {
     color: white;
@@ -41,9 +46,9 @@ body {
     font-size: 20px;
     list-style: none;
 }
-.menu:hover{
+
+.menu>ul>li:hover {
     color: rgb(240, 170, 20);
-    transition: all 0.4s ease 0s;
 }
 
 .menu button {
@@ -52,6 +57,13 @@ body {
     height: 40px;
     width: 160px;
     font-size: 20px;
+    color: white;
+    border: none;
+}
+
+.menu button:hover {
+background-color: rgb(80, 32, 117);
+
 }
 
 /* section-1 */
@@ -69,6 +81,28 @@ body {
 .section-1 {
     display: flex;
     justify-content: end;
+    align-items: center;
+    padding-right: 60px;
+    padding-top: 40px;
+}
+.section-1>img{
+    animation-name: img-scale;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+
+
+}
+@keyframes img-scale{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.1;
+    }
+    100%{
+        scale: 1;
+    }
 }
 
 .section-2 {
@@ -79,12 +113,6 @@ body {
 .section-21 {
     flex: 1;
 
-}
-
-
-.section-22>img {
-    width: 800px;
-    height: 500px;
 }
 
 .enable>h1 {
@@ -132,10 +160,59 @@ body {
 
 }
 
-.placed {
-    margin-top: -40px;
-    margin-left: 600px;
+.butt .a:hover {
+    background-color: white;
+    color: rgb(80, 32, 117);
+
 }
+
+.butt .b:hover {
+    background-color: white;
+    color: rgb(80, 32, 117);
+
+
+}
+
+.section-22 {
+    flex: 1;
+    /* display: flex; */
+}
+ .banner:hover{
+    scale: 1.05;
+    transition-duration: .7s;
+
+}
+
+.placed {
+    width: 150px;
+    /* height: 100px; */
+
+    animation-name: img-rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    position: relative;
+    top: -100px;
+    left: -100px;
+
+}
+
+@keyframes img-rotate {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+.banner {
+    width: 700px;
+    transition-duration: .7s;
+}
+
 
 .course p {
     font-size: 20px;
@@ -160,15 +237,14 @@ body {
 
 }
 
-.section-22 {
-    /* height: 100vh;
-    width: 100vw; */
-    flex-wrap: wrap;
+.section-2-cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
-    justify-content: center;
-    align-items: center;
+    margin-left: 100px;
 }
+
+
 
 .course1 {
     border: 1PX solid;
@@ -198,7 +274,7 @@ body {
 
 .view {
     height: 40px;
-    width: 203px;
+    width: 200px;
     margin-left: 700px;
     margin-top: 60px;
     background-color: white;
@@ -214,6 +290,10 @@ body {
     align-items: center;
     justify-content: center;
     padding: 13px;
+}
+.view:hover{
+    background-color: rgb(80, 32, 117);
+    color: white;
 }
 
 
@@ -252,7 +332,8 @@ body {
     justify-content: center;
 
 }
-.places{
+
+.places {
     color: rgb(80, 32, 117);
 }
 
@@ -280,6 +361,10 @@ body {
     border: 1px rgb(80, 32, 117) solid;
     border-radius: 10px;
 
+}
+.know:hover{
+    background-color: rgb(80, 32, 117);
+    color: white;
 }
 
 
@@ -349,25 +434,35 @@ body {
     padding: 20px;
 
     width: 360px;
-    height: 300px;
+    height: 350px;
 }
 
 .subexperience img {
-    width: 270px;
+    width: 300px;
+    transition-duration: .4s;
+
 }
-.well{
+.subexperience img:hover{
+    scale: 1.04;
+    transition-duration:.4s ;
+}
+
+.well {
     color: rgb(80, 32, 117);
     margin-top: 20px;
 }
-.mor{
+
+.mor {
     color: rgb(80, 32, 117);
     margin-top: 20px;
 }
-.accredited{
+
+.accredited {
     color: rgb(80, 32, 117);
     margin-top: 20px;
 }
-.dedicated{
+
+.dedicated {
     color: rgb(149, 137, 137);
     font-size: 20px;
     top: 20px;
@@ -393,22 +488,676 @@ body {
 
 
 }
+.more>button:hover{
+    background-color: rgb(80, 32, 117);
+    color: white;
+}
 
-.fifth-section {
+.section-5 {
+    padding-left: 60px;
+    background-color: rgb(80, 32, 117);
+    padding-top: 80px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.section-51 {
+    flex: 1;
+    height: fit-content;
+    position: sticky;
+    top: 180px;
+    color: white;
+    line-height:30px;
+    font-size: 20px;
+
+}
+
+.section-51 .a {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.section-51 h1{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 22px;
+    width: 500px;
+    line-height: 50px;
+}
+
+.section-51 .b {
+    font-size: 17px;
+    color: white;
+    width: 555px;
+    line-height: 26px;
+}
+
+.section-51 .c
+.section-51 .d
+.section-51 .e{
+    color: white;
+    padding-bottom: 8px;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.section-51 .c::before,
+.section-51 .d::before,
+.section-51 .e::before{
+    content: url('');
+    padding-right: 20px;
+}
+.section-52{
+    flex: 1;
+    color: white;
+}
+.section-521{
+    width: 300px;
+}
+.section-522{
+    padding-top: 40px;
+    padding-left: 80px;
+    margin-left: 50px;
+}
+.section-523{
+    margin-left: 80px;
+    padding-left: 150px;
+}
+.section-521 h1,
+.section-523 h1{
+    font-size: 30px;
+}
+.section-521 p,
+.section-523 p{
+    font-size: 17px;
+    line-height: 30px;
+}
+.placements4{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 700px;
+
+}
+
+.partners {
+    margin-top: 20px;
+    margin-left: 600px;
+    color: rgb(80, 32, 117);
+    font-size: 22px;
+
+}
+
+.paragrah5 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+    line-height: 25px;
+
+
+}
+
+.pic6 {
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.pic6>img {
+    height: 100px;
+    width: 205px;
+    object-fit: contain;
+}
+
+.more2>button {
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+
+    background-color: white;
+    color: rgb(80, 32, 117);
+    border: 1px rgb(80, 32, 117) solid;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 609px;
+
+}
+.more2:hover{
+    background-color: rgb(80, 32, 117);
+    color: white;
+}
+
+.seventh {
     background-color: rgb(80, 32, 117);
 }
 
-.proces {
-    font-size: 13px;
+.placements6 {
+    color: white;
+    font-size: 10px;
     margin-top: 30px;
+    margin-left: 30px;
+}
+
+.word8 {
+    color: white;
+    margin-top: 20px;
+    line-height: 40px;
+    margin-left: 30px;
+}
+
+.paragrah9 {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 500px;
+    margin-top: -60px;
+
+}
+
+.carees5 {
+    /* margin-top: 30px;
+    margin-left: 40px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 80px;
+}
+
+.img-bg {
+    background-image: url('https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/image-bg.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.person-card {
+    object-fit: contain;
+}
+
+.name {
+    border: 1px rgb(215, 214, 214)solid;
+    border-radius: 25px;
+    height: 90px;
+    background-color: white;
+
+}
+
+.name>h1 {
+    font-size: 20px;
+    color: rgb(80, 32, 117);
+    margin-left: 40px;
+}
+
+.name3 {
+    color: rgb(80, 32, 117);
+}
+
+.desing {
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.solution {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.desing2 {
+    margin-left: 50px;
+}
+
+.solution2 {
+    margin-top: 10px;
     margin-left: 60px;
+}
+
+.desing3 {
+    margin-left: 50px;
+}
+
+.solution3 {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.desing4 {
+    margin-left: 40px;
+}
+
+.solution4 {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.more7>button {
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+
+    background-color: white;
+    color: rgb(80, 32, 117);
+    border: 1px rgb(80, 32, 117) solid;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 700px;
+}
+
+.more7>button:hover {
+    color: rgb(80, 32, 117)
+}
+
+.eight {
+    background-color: rgb(80, 32, 117);
+    color: white;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 180px 60px;
+    height: 240px;
+}
+
+.para1 {
+    font-size: 20px;
+    /* margin-top: 90px;
+    margin-left: 100px; */
+
+}
+
+.opinion {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.contactus>button {
+    font-size: 20px;
+    height: 45px;
+    width: 190px;
+
+    background-color: white;
+    color: rgb(80, 32, 117);
+    border: 1px rgb(80, 32, 117) solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.pic7 {
+    position: relative;
+    bottom: 100px;
+
+}
+
+.pic7>img {
+    height: 300px;
+    width: 300px;
+}
+
+.section-nine {
+    background-color: rgb(244, 239, 352);
+}
+
+.nine {
+    font-size: 20px;
+    color: rgb(39, 36, 36);
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.internss {
+    font-size: 15px;
+    color: rgb(80, 32, 117);
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.students {
+    margin-top: 20px;
+    margin-left: 90px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.bg>img {
+    height: 90px;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.bg {
+    margin-top: -100px;
+    margin-left: 900px;
+}
+
+.subexcellence {
+    display: flex;
+    gap: 100px;
+
+    padding-left: 50px;
+
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.excellence {
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+
+    width: 360px;
+    height: 300px;
+
+}
+
+.names {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.digital {
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.know0>button {
+    font-size: 20px;
+    height: 45px;
+    width: 120px;
+
+    background-color: white;
+    color: rgb(80, 32, 117);
+    border: 1px rgb(80, 32, 117) solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 602px;
+
+}
+
+.section-ten {
+    background-color: rgb(80, 32, 117);
+    margin-top: 30px;
+    display: flex;
+
+    padding: 50px;
+}
+
+.section-10-1 {
+
+    /* border: 1px red solid; */
+    flex: 1;
+
+}
+
+.section-10-2 {
+    /* border: 1px red solid; */
+    flex: 2;
+    padding: 30px;
+
+}
+
+.sec-10-21>p{
+    color: white;
+}
+.sec-10-21>h1{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-10-1>img {
+    width: 400px;
+}
+
+
+
+.section-1021 {
+
+    display: flex;
+}
+
+.form-sec-left>input,
+.form-sec-right>input,
+.form-sec-right>textarea {
+    border: none;
+    border-radius: 14px;
+    background-color: rgb(151, 95, 193);
+    padding-left: 10px;
+    width: 430px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-right: 30px;
+}
+
+.section-10211>textarea {
+    padding-top: 10px;
+    height: 110px;
+}
+
+.section-10211>input:focus {
+    outline: 1px solid aqua;
+}
+
+.section-10211>textarea:focus {
+    outline: 1px solid aqua;
+}
+
+.section-10211>input::placeholder {
+    color: white;
+}
+
+.submit>button {
+    font-size: 20px;
+    height: 45px;
+    width: 130px;
+
+    background-color: white;
+    color: rgb(80, 32, 117);
+    border: 1px rgb(80, 32, 117) solid;
+    border-radius: 20px;
+    position: relative;
+    bottom: 70px;
+    margin-left: 990px;
+
+}
+
+.section-111 {
+    text-align: center;
+    line-height: 40px;
+    margin-top: 80px;
+    padding-top: 50px;
+}
+
+.section-111 p {
+    font-size: 18px;
+}
+
+.section-111 h1 {
+    font-size: 26px;
+    color: rgb(80, 32, 117);
+
+}
+
+.section-112 {
+    display: flex;
+}
+
+.section-1121 {
+    flex: 1,7;
+    padding-left: 60px;
+    padding-top: 20px;
+
+    /* border: 1px solid; */
+
+}
+
+.section-1121 summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1121 summary::after {
+    content: '+';
+
+}
+
+.section-1121 details[open] {
+
+}
+
+.section-1121>details>summary{
+    color:rgb(80, 32, 117);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lucida Sans',Verdana;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.section-1121 p {
+    padding-top: 20px;
+    line-height: 20px;
+    color: rgb(80, 32, 117);
+    font-size: 18px;
+}
+.section-1122{
+    flex: 1;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.section-1122>img {
+
+    height: 450px;
+    width: 420px;
+    transition-duration: .7s;
+    margin-left: 60px;
+
+
+}
+.section-1122 img:hover{
+    scale:1.09;
+}
+
+
+
+.section-12 {
+    /* border: 1px solid; */
+    background-image: Url('https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/footer-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 30px;
+
+
+}
+
+.futuralabs1 {
+    margin-top: 20px;
+}
+
+.futuralabs1>img {
+    margin-top: 40px;
+    padding-top: 30px;
+    /* border: 1px solid; */
+
+}
+
+.places121 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left: 90px;
+}
+
+.plc120 {
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: -40px;
+    margin-left: 40px;
+}
+
+.place122 {
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 60px;
+    margin-top: -40px;
+}
+
+.thirdclass {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
     color: white;
 
 }
 
-.journey {
-    font-size: 20px;
-    margin-top: 30px;
-    margin-left: 60px;
+.link1,
+.link33 {
+    display: flex;
+    gap: 30px;
+    line-height: 30px;
+    font-size: 18px;
+
+}
+
+.link11 {
+    font-size: 18px;
+}
+
+.thirdclass1 {
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.thirdclass1>h1 {
+    line-height: 50px;
+
+}
+
+.link12 {
+    padding-left: 80px;
+    font-size: 18px;
+}
+
+
+
+
+.thirdclass2 {
     color: white;
+    font-size: 18px;
+    /* position: relative;
+    bottom: 170px;
+    margin-left: 300px;
+    line-height: 30px; */
+    margin-top: 20px;
+}
+
+.thirdclass3>h1 {
+    color: white;
+    font-size: 30px;
+
+    /* position: relative; */
+    /* bottom: 360px; */
+    /* margin-left: 500px; */
+}
+
+.thirdclass3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+    color: white;
+}
+
+.thirdclass6 {
+    line-height: 30px;
+    font-size: 18px;
 }
