@@ -32,7 +32,8 @@ body {
 
     padding: 20px;
 }
-.pic>img:hover{
+
+.pic>img:hover {
     scale: 1.05;
 }
 
@@ -62,13 +63,16 @@ body {
 }
 
 .menu button:hover {
-background-color: rgb(80, 32, 117);
+    background-color: rgb(80, 32, 117);
 
 }
 
 /* section-1 */
 .first-section {
-    background-color: rgb(80, 32, 117);
+    background-color: rgb(107, 40, 159);
+    background-image: url('https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/bg01.svg');
+    background-size: cover;
+    background-position: center;
 }
 
 /* .section-1,
@@ -85,22 +89,26 @@ background-color: rgb(80, 32, 117);
     padding-right: 60px;
     padding-top: 40px;
 }
-.section-1>img{
+
+.section-1>img {
     animation-name: img-scale;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    
+
 
 
 }
-@keyframes img-scale{
-    0%{
+
+@keyframes img-scale {
+    0% {
         scale: 1;
     }
-    50%{
+
+    50% {
         scale: 1.1;
     }
-    100%{
+
+    100% {
         scale: 1;
     }
 }
@@ -177,7 +185,8 @@ background-color: rgb(80, 32, 117);
     flex: 1;
     /* display: flex; */
 }
- .banner:hover{
+
+.banner:hover {
     scale: 1.05;
     transition-duration: .7s;
 
@@ -264,6 +273,12 @@ background-color: rgb(80, 32, 117);
 
 }
 
+.course1>img:hover {
+    scale: 1.03;
+    transition-duration: .9s;
+
+}
+
 .coursea {
     height: 55px;
     width: 170px;
@@ -291,7 +306,8 @@ background-color: rgb(80, 32, 117);
     justify-content: center;
     padding: 13px;
 }
-.view:hover{
+
+.view:hover {
     background-color: rgb(80, 32, 117);
     color: white;
 }
@@ -319,6 +335,11 @@ background-color: rgb(80, 32, 117);
 
     padding: 20px;
 
+}
+
+.section-32>img:hover {
+    transition-duration: .9s;
+    scale: 1.04;
 }
 
 .section-33 {
@@ -362,7 +383,8 @@ background-color: rgb(80, 32, 117);
     border-radius: 10px;
 
 }
-.know:hover{
+
+.know:hover {
     background-color: rgb(80, 32, 117);
     color: white;
 }
@@ -410,9 +432,14 @@ background-color: rgb(80, 32, 117);
     color: rgb(82, 79, 79);
     padding: 50px;
 }
+/* .four{
+    background-image: url('https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/bga2.svg');
+} */
+
 
 .section-4 {
     padding: 30px;
+    
 
 }
 
@@ -442,9 +469,10 @@ background-color: rgb(80, 32, 117);
     transition-duration: .4s;
 
 }
-.subexperience img:hover{
+
+.subexperience img:hover {
     scale: 1.04;
-    transition-duration:.4s ;
+    transition-duration: .4s;
 }
 
 .well {
@@ -488,7 +516,8 @@ background-color: rgb(80, 32, 117);
 
 
 }
-.more>button:hover{
+
+.more>button:hover {
     background-color: rgb(80, 32, 117);
     color: white;
 }
@@ -507,7 +536,7 @@ background-color: rgb(80, 32, 117);
     position: sticky;
     top: 180px;
     color: white;
-    line-height:30px;
+    line-height: 30px;
     font-size: 20px;
 
 }
@@ -518,7 +547,7 @@ background-color: rgb(80, 32, 117);
     padding-bottom: 10px;
 }
 
-.section-51 h1{
+.section-51 h1 {
     font-size: 30px;
     color: white;
     padding-bottom: 22px;
@@ -533,46 +562,53 @@ background-color: rgb(80, 32, 117);
     line-height: 26px;
 }
 
-.section-51 .c
-.section-51 .d
-.section-51 .e{
+.section-51 .c .section-51 .d .section-51 .e {
     color: white;
     padding-bottom: 8px;
     font-size: 20px;
     padding-top: 15px;
+
 }
+
 .section-51 .c::before,
 .section-51 .d::before,
-.section-51 .e::before{
-    content: url('');
+.section-51 .e::before {
+    content: url('https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/paper-plane.svg');
     padding-right: 20px;
 }
-.section-52{
+
+.section-52 {
     flex: 1;
     color: white;
 }
-.section-521{
+
+.section-521 {
     width: 300px;
 }
-.section-522{
+
+.section-522 {
     padding-top: 40px;
     padding-left: 80px;
     margin-left: 50px;
 }
-.section-523{
+
+.section-523 {
     margin-left: 80px;
     padding-left: 150px;
 }
+
 .section-521 h1,
-.section-523 h1{
+.section-523 h1 {
     font-size: 30px;
 }
+
 .section-521 p,
-.section-523 p{
+.section-523 p {
     font-size: 17px;
     line-height: 30px;
 }
-.placements4{
+
+.placements4 {
     font-size: 18px;
     margin-top: 20px;
     margin-left: 700px;
@@ -607,11 +643,15 @@ background-color: rgb(80, 32, 117);
     object-fit: contain;
 }
 
+.pic6>img:hover {
+    scale: 1.03;
+    transition-duration: .4s;
+}
+
 .more2>button {
     font-size: 20px;
     height: 40px;
     width: 150px;
-
     background-color: white;
     color: rgb(80, 32, 117);
     border: 1px rgb(80, 32, 117) solid;
@@ -620,7 +660,8 @@ background-color: rgb(80, 32, 117);
     margin-left: 609px;
 
 }
-.more2:hover{
+
+.more2>button:hover {
     background-color: rgb(80, 32, 117);
     color: white;
 }
@@ -666,6 +707,11 @@ background-color: rgb(80, 32, 117);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.img-bg>img:hover {
+    transition-duration: .5s;
+    scale: 1.03;
 }
 
 .person-card {
@@ -741,7 +787,8 @@ background-color: rgb(80, 32, 117);
 }
 
 .more7>button:hover {
-    color: rgb(80, 32, 117)
+    background-color: rgb(80, 32, 117);
+    color: white;
 }
 
 .eight {
@@ -754,7 +801,12 @@ background-color: rgb(80, 32, 117);
     justify-content: space-between;
     margin: 180px 60px;
     height: 240px;
+    background-image: url(./images/bg04.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
+
+.section-eight {}
 
 .para1 {
     font-size: 20px;
@@ -793,8 +845,15 @@ background-color: rgb(80, 32, 117);
     width: 300px;
 }
 
+.pic7>img:hover {
+    scale: 1.03;
+    transition-duration: .4s;
+
+}
+
 .section-nine {
     background-color: rgb(244, 239, 352);
+    margin-left: 20px;
 }
 
 .nine {
@@ -827,7 +886,12 @@ background-color: rgb(80, 32, 117);
 
 .bg {
     margin-top: -100px;
-    margin-left: 900px;
+    margin-left: 1090px;
+}
+
+.bg>img:hover {
+    scale: 1.02;
+    transition-duration: .3s;
 }
 
 .subexcellence {
@@ -849,6 +913,13 @@ background-color: rgb(80, 32, 117);
 
     width: 360px;
     height: 300px;
+
+}
+
+.excellence>img:hover {
+    scale: 1.04;
+    transition-duration: .5s;
+
 
 }
 
@@ -876,6 +947,12 @@ background-color: rgb(80, 32, 117);
 
 }
 
+.know0>button:hover {
+    background-color: rgb(80, 32, 117);
+    color: white;
+
+}
+
 .section-ten {
     background-color: rgb(80, 32, 117);
     margin-top: 30px;
@@ -891,6 +968,12 @@ background-color: rgb(80, 32, 117);
 
 }
 
+.section-10-1>img:hover {
+    scale: 1.04;
+    transition-duration: .5s;
+
+}
+
 .section-10-2 {
     /* border: 1px red solid; */
     flex: 2;
@@ -898,10 +981,11 @@ background-color: rgb(80, 32, 117);
 
 }
 
-.sec-10-21>p{
+.sec-10-21>p {
     color: white;
 }
-.sec-10-21>h1{
+
+.sec-10-21>h1 {
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -923,7 +1007,7 @@ background-color: rgb(80, 32, 117);
 .form-sec-right>textarea {
     border: none;
     border-radius: 14px;
-    background-color: rgb(151, 95, 193);
+    background-color: rgb(54, 18, 82);
     padding-left: 10px;
     width: 430px;
     height: 40px;
@@ -951,7 +1035,7 @@ background-color: rgb(80, 32, 117);
     color: white;
 }
 
-.submit>button {
+.section-1021 .submit1>button {
     font-size: 20px;
     height: 45px;
     width: 130px;
@@ -960,9 +1044,15 @@ background-color: rgb(80, 32, 117);
     color: rgb(80, 32, 117);
     border: 1px rgb(80, 32, 117) solid;
     border-radius: 20px;
-    position: relative;
-    bottom: 70px;
-    margin-left: 990px;
+    margin-top: 20px;
+    margin-left:200px ;
+
+
+}
+
+.submit>button:hover {
+    background-color: rgb(80, 32, 117);
+    color: white;
 
 }
 
@@ -988,7 +1078,7 @@ background-color: rgb(80, 32, 117);
 }
 
 .section-1121 {
-    flex: 1,7;
+    flex: 1, 7;
     padding-left: 60px;
     padding-top: 20px;
 
@@ -1006,15 +1096,13 @@ background-color: rgb(80, 32, 117);
 
 }
 
-.section-1121 details[open] {
+.section-1121 details[open] {}
 
-}
-
-.section-1121>details>summary{
-    color:rgb(80, 32, 117);
+.section-1121>details>summary {
+    color: rgb(80, 32, 117);
     font-size: 20px;
     font-weight: 500;
-    font-family: 'Lucida Sans',Verdana;
+    font-family: 'Lucida Sans', Verdana;
     padding-bottom: 30px;
     padding-top: 30px;
 
@@ -1026,7 +1114,8 @@ background-color: rgb(80, 32, 117);
     color: rgb(80, 32, 117);
     font-size: 18px;
 }
-.section-1122{
+
+.section-1122 {
     flex: 1;
     padding-left: 20px;
     padding-top: 50px;
@@ -1041,8 +1130,9 @@ background-color: rgb(80, 32, 117);
 
 
 }
-.section-1122 img:hover{
-    scale:1.09;
+
+.section-1122 img:hover {
+    scale: 1.09;
 }
 
 
@@ -1066,6 +1156,13 @@ background-color: rgb(80, 32, 117);
     margin-top: 40px;
     padding-top: 30px;
     /* border: 1px solid; */
+
+}
+
+.futuralabs1>img:hover {
+    scale: 1.04;
+    transition-duration: .5s;
+
 
 }
 
@@ -1160,4 +1257,8 @@ background-color: rgb(80, 32, 117);
 .thirdclass6 {
     line-height: 30px;
     font-size: 18px;
+    /* background-image: url('https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/facebook.svg'),
+                     url('https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/linkedin.svg'),
+                     url('https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/instagram.svg'),
+                     url('https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/google.svg') */
 }
